@@ -13,7 +13,7 @@ var (
 )
 
 func main() {
-	fh, _ := os.Open("3.1/data")
+	fh, _ := os.Open("3.2/data")
 	defer fh.Close()
 	s := bufio.NewScanner(fh)
 	ss := make([]string, 0, 1500)
